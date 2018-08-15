@@ -7,7 +7,7 @@ class Dog
     "#{name}".strip
   end
   
-  def name=(fido)
+  def name=(name)
     @name = name
   end
 end
