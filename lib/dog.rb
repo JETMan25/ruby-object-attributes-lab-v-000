@@ -18,7 +18,7 @@ class Dog
     @breed
   end
   def breed=(true_breed)
-    "#{breed}".strip
+    @breed = breed
   end
 end
 
