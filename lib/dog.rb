@@ -17,7 +17,7 @@ class Dog
   def breed
     @breed
   end
-  def breed=(true_breed)
+  def breed=(breed)
     @breed = breed
   end
 end
