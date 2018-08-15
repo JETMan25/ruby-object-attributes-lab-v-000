@@ -15,10 +15,10 @@ class Dog
     @breed = breed
   end
   def breed
-    @breed = breed
+    @breed
   end
   def breed=(true_breed)
-    @breed = breed
+    "#{breed}"
   end
 end
 
