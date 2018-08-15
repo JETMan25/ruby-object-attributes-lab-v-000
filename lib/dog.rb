@@ -11,9 +11,7 @@ class Dog
     @name = new_name
   end
   
-  def breed=(breed)
-    @breed = breed
-  end
+
 end
 
 fido = Dog.new("Fido")
