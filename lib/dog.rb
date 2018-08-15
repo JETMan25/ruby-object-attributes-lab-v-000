@@ -21,12 +21,11 @@ class Dog
     @breed = breed
   end
 
-fido = Dog.new("Fido")
-fido.name = "Fido"
 
 end
 
-
+fido = Dog.new("Fido")
+fido.name = "Fido"
 
 snoopy = Dog.new("Snoopy")
 snoopy.name = "Snoopy"
