@@ -10,7 +10,6 @@ class Dog
   def name=(full_name)
     "#{name}".strip
   end
-end
 
   def initialize(breed)
     @breed = breed
@@ -21,6 +20,7 @@ end
   def breed=(true_breed)
     @breed = breed
   end
+end
 end
 
 
