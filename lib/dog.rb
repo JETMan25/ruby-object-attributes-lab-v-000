@@ -7,7 +7,7 @@ class Dog
     "#{name}".strip
   end
   
-  def name=(name)
+  def name=(full_name)
     @name = name
   end
 end
@@ -19,7 +19,7 @@ class Breed
   def breed
     @breed = breed
   end
-  def breed=(breed)
+  def breed=(true_breed)
     @breed = breed
   end
 end
