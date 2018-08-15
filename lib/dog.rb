@@ -8,7 +8,7 @@ class Dog
   end
   
   def name=(name)
-    "#{name}".strip
+    @name = name
   end
 
   def initialize(breed)
