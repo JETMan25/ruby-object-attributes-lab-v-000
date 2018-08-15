@@ -4,11 +4,11 @@ class Dog
   end
   
   def name
-    "#{name}".strip
+    @name = name
   end
   
   def name=(full_name)
-    @name = name
+    "#{name}".strip
   end
 end
 
