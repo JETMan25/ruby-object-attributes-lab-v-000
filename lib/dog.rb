@@ -4,11 +4,11 @@ class Dog
   end
   
   def name
-    @name = name
+   @name = 
   end
   
-  def name=(full_name)
-    "#{name}".strip
+  def name=(name)
+    @name = name
   end
 
   def initialize(breed)
@@ -23,5 +23,5 @@ class Dog
 end
 
 
-fido = Dog.new(name)
+
 
