@@ -20,10 +20,13 @@ class Dog
   def breed=(breed)
     @breed = breed
   end
-end
 
 fido = Dog.new("Fido")
 fido.name = "Fido"
+
+end
+
+
 
 snoopy = Dog.new("Snoopy")
 snoopy.name = "Snoopy"
